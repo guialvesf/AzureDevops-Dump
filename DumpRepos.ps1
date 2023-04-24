@@ -1,7 +1,7 @@
 function Get-Repos {
 
     if (!$args) {
-        write-host ("Usage: ./DumpRepos <AzureDevops URL> <Basic auth>")
+        write-host ("Usage: Get-Repos <AzureDevops URL> <Basic auth>")
         Exit
     }
 
